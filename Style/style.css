@@ -12,10 +12,12 @@ header
 section.w
 {
     float: left;
+    margin-top: 5em; 
 }
 section.am
 {
     float: right;
+    margin-top: 5em;
 }
 .esp
 {
@@ -26,12 +28,19 @@ section.am
 {
     text-align: center;
 }
+h2.txt
+{
+    margin-top: 5em;
+}
+p.txt
+{
+    font-size: 18px; 
+}
 body
 {
     background-image: url("../Imagenes/Alters.jpg");
     background-attachment: fixed;
     background-position: center;
-    /*background: black;*/
 }
 header nav
 {
@@ -57,13 +66,9 @@ section img
 {
     border-radius: 30%;
 }
-table
-{
-    border: 3px solid red;
-}
 strong,h2,p,h3,th
 {
-    color: white;
+    color: rgb(255, 81, 0);
 }
 th
 {
@@ -72,7 +77,8 @@ th
 .Flft
 {
     float: right;
-    padding: 5em 5.5em 0em 0em; 
+    padding: 5em 5em 0em 1em;
+    text-align: center; 
 }
 .sinopsis
 {
@@ -80,6 +86,6 @@ th
 }
 .imgS
 {
-    padding-top: 3em;
+    padding-top: 4em;
     padding-bottom: 3em; 
 }
