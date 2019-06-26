@@ -9,7 +9,8 @@ body
     background-image: url(../Imagenes/Alters.jpg);
     background-attachment: fixed;
     background-position: center;
-    color: white;
+    color: lightseagreen;
+    text-align: justify;
 }
 header nav ul
 {
@@ -38,7 +39,7 @@ table
 {
     margin: 5em 0em 0em 0em;
 }
-section
+#Ser
 {
     float: left;
     width: 50%;
@@ -49,4 +50,27 @@ section
 {
     font-size: 40px;
     text-align: center;
+}
+a
+{
+    text-decoration: none;
+    color: lightgreen;
+}
+p
+{
+    font-size: 18px;
+}
+h1 
+{
+    text-align: center;
+}
+#snsp
+{
+    text-align: center;
+}
+#home
+{
+    margin-top:5em;
+    color:violet;
+    font-style: italic;
 }
