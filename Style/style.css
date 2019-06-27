@@ -9,7 +9,7 @@ body
     background-image: url(../Imagenes/Alters.jpg);
     background-attachment: fixed;
     background-position: center;
-    color: lightseagreen;
+    color: rgb(255, 166, 0);
     text-align: justify;
 }
 header nav ul
@@ -19,13 +19,16 @@ header nav ul
 header nav ul li
 {
     display: inline-block;
-    margin: 19em 0em 0em 0em;
-    padding: 0em 1em 0em 1em;
-    background: black;
+    margin: 17.5em 0em 0em 0em;
+    padding: 0em 2em 0em 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header nav ul li a
 {
-    padding: 0em 5em 0em 5em;
+    padding: 0em 3em 0em 3em;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
 }
 section img
 {
@@ -54,7 +57,7 @@ table
 a
 {
     text-decoration: none;
-    color: lightgreen;
+    color: rgb(0, 255, 0);
 }
 p
 {
@@ -70,7 +73,38 @@ h1
 }
 #home
 {
-    margin-top:5em;
-    color:violet;
+    margin-top:9em;
+    color:rgb(255, 0, 255);
     font-style: italic;
+    width: 50%;
+    margin: auto;
+}
+#ExGen
+{
+    width: 50%;
+    margin: auto;
+    margin-top: 3em;
+    font-size: 27px;
+
+}
+#Een
+{
+    margin: auto;
+    font-size: 27px;
+}
+#right
+{
+    float: right;
+}
+#left
+{
+    float: left;
+}
+#Mtp
+{
+    Margin-top: 3em;
+}
+#headerright
+{
+    float: right;
 }
